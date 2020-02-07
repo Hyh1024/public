@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>定位</title>
+		<style>
+			*{
+				margin: 0;
+				padding: 0;
+			}
+			div{
+				width: 100px;
+				height: 100px;
+				background-color: red;
+				position: absolute;
+			}
+			/* 
+			  z-index  表示在第几层  从里向外  3表示在最上面  2是中间
+			 */
+			#a{
+				width: 120px;
+				z-index: 1;
+			}
+			#b{
+				width: 110px;
+				background-color: green;
+				z-index: 2;
+			}
+			#c{
+				width: 100px;
+				background-color: blue;
+				z-index: 3;
+			}
+		</style>
+	</head>
+	<body>
+		<div id="a">a</div>
+		<div id="b">b</div>
+		<div id="c">c</div>
+	</body>
+</html>
