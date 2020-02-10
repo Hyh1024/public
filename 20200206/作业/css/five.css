@@ -1,0 +1,87 @@
+#five{
+	/* position: absolute; */
+	width: 100%;
+	height: 500px;
+	margin-top: 0px;
+	/* border: 1px black solid; */
+	/* background-color: #0000FF; */
+	/* float: left; */
+	/* display: inline-block; */
+}
+#five_img{
+	position: absolute;
+	margin-top: 2%;
+	margin-left: 10%;
+	/* border: 1px black solid; */
+	width: 80%;
+	height: 80%;
+}
+#five_img1{
+	/* border: 1px black solid; */
+	background-image: url(../img/cat-1.jpg);
+	position: absolute;
+	height: 90%;
+	width: 26%;
+	margin-top: 1%;
+	margin-left: 5%;
+	float: left;
+	z-index: 1;
+	background-repeat: no-repeat;
+}
+#five_text1{
+	position: absolute;
+	margin-top: 20%;
+	margin-left: 20%;
+	/* border: 1px black solid; */
+}
+#five ul{
+	list-style: none;
+}
+#five ul li{
+	margin-top: 20px;
+}
+#five button{
+	/* color: currentcolor; */
+	height: 30px;
+	text-underline-color: #62FFFF;
+	margin-top: 30px;
+	border-style:none;
+	/* font-weight: 300; */
+	font-size: 15px;
+	letter-spacing:5px;
+}
+#five_img2{
+	background-image: url(../img/cat-2.jpg);
+	position: absolute;
+	height: 90%;
+	width: 26%;
+	margin-top: 1%;
+	margin-left: 38%;
+	float: left;
+	z-index: 1;
+	background-repeat: no-repeat;
+}
+#five_text2{
+	position: absolute;
+	margin-top: 20%;
+	margin-left: 60%;
+	/* border: 1px black solid; */
+}
+#five_img3{
+	background-image: url(../img/cat-3.jpg);
+	position: absolute;
+	height: 90%;
+	width: 26%;
+	margin-top: 1%;
+	margin-left: 70%;
+	float: left;
+	z-index: 1;
+	background-repeat: no-repeat;
+}
+#five_text3{
+	position: absolute;
+	margin-top: 45%;
+	margin-left: 60%;
+	/* border: 1px black solid; */
+}
+
