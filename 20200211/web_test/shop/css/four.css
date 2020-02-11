@@ -1,0 +1,31 @@
+#four{
+	/* position: absolute; */
+	width: 100%;
+	height: 520px;
+	background-image: url(../img/slider-2.jpg);
+	background-size:100%;
+	background-repeat: no-repeat;
+}
+#four_text{
+	position: absolute;
+	margin-top: 8%;
+	margin-left: 18%;
+}
+#four ul{
+	list-style: none;
+	z-index: 20;
+}
+#four ul li{
+	margin-top: 30px;
+	color: #FFFFFF;
+}
+#four p{
+	float: left;
+}
+#four button{
+	height: 35px;
+	width: 150px;
+	color: #FFFFFF;
+	text-align: center;
+	background-color: #0055ff;
+}

@@ -1,0 +1,150 @@
+*{
+	margin: 0;
+	padding: 0;
+	
+}
+#all{
+	border: 1px black solid;
+	width:600px;
+	height:1000px;
+	margin-left: 10%;
+}
+.header{
+	border: 1px black solid;
+	height: 30px;
+	width: 600PX;
+	
+	position: fixed;
+	top:0px;
+	/* float: left; */
+	background-color: #808080;
+}
+.headerLeft{
+	margin-top: 3px;
+	/* border: 1px black solid; */
+	width: 50%;
+	height: 100%;
+	float: left;
+}
+.headerLeft a{
+	margin-left: 2%;
+	align-items: center;
+}
+.headerright{
+	margin-top: 4px;
+	width: 50%;
+	height: 100%;
+	float: left;
+}
+#headerright1{
+	width: 20px;
+	height: 20px; 
+	background-image: url(../wehcartimg/搜索.svg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	float: left;
+	margin-left: 70%;
+}
+#headerright2{
+	width: 20px;
+	height: 20px; 
+	background-image: url(../wehcartimg/加号.svg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	float: left;
+	margin-left: 13%;
+}
+.text{
+	margin-top:30px;
+	border: 1px black solid;
+}
+.textt{
+	border: 1px black solid;
+	height: 50px;
+	width: 100%;
+}
+.textt1{
+	border: 1px #403E72 solid;
+	height: 50px;
+	width: 50px;
+	background-image: url(../wehcartimg/人像.svg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	float: left;
+}
+.textt2{
+	border: 1px #403E72 solid;
+	height: 50px;
+	width: 450px;
+	float: left;
+}
+.textt3{
+	/* border: 1px #403E72 solid; */
+}
+.menu{
+	/* border: 1px black solid; */
+	width: 600px;
+	height: 60px;
+	background-color: #D3D3D3;
+	position: fixed;
+	bottom: 0px;
+}
+.menuu{
+	width: 25%;
+	height: 100%;
+	float: left;
+	/* margin-left: 30px; */
+	/*改为弹性盒子*/
+	/* display: flex;
+	flex-direction: row;
+	justify-content: space-between; */
+}
+.huihua1{
+	margin-left: 45%;
+	width: 30px;
+	height: 30px;
+	background-image: url(../wehcartimg/对话.svg);
+	background-size: cover;
+}
+.tongxun1{
+	margin-left: 45%;
+	width: 30px;
+	height: 30px;
+	background-image: url(../wehcartimg/通讯录.svg);
+	background-size: cover;
+}
+.faxian1{
+	margin-left: 45%;
+	width: 30px;
+	height: 30px;
+	background-image: url(../wehcartimg/发现.svg);
+	background-size: cover;
+}
+.wo1{
+	margin-left: 45%;
+	width: 30px;
+	height: 30px;
+	background-image: url(../wehcartimg/我.svg);
+	background-size: cover;
+}
+.huihua2{
+	margin-left: 45%;
+}
+.tongxun2{
+	margin-left: 40%;
+}
+.faxian2{
+	margin-left: 45%;
+}
+.wo2{
+	margin-left: 49%;
+}
+/* .textt11{
+		border: 1px #403E72 solid;
+		height: 50px;
+		width: 50px;
+		background-image: url(../wehcartimg/人像.svg);
+		background-size: cover;
+		background-repeat: no-repeat;
+		float: left;
+} */

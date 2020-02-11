@@ -1,0 +1,81 @@
+*{
+	margin: 0;
+	padding: 0 ;
+}
+
+#container
+{
+	width: 100%;
+	height: 100%;
+	position: fixed;
+	/* background-color: #FFE4C4; */
+	display: flex;
+	flex-direction: column;
+}
+
+#content #content_header{
+	width: 100%;
+	height: 80px;
+	background-color: #D3D3D3;
+	/* border: 1px black solid; */
+}
+
+#content #content_header #img{
+	float: left;
+	height: 100%;
+	width: 80px;
+	border-radius: 50%;
+	background-image: url(../image/touxiang.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	margin-left: 8px;
+}
+#content #content_header #name{
+	float: left;
+}
+#content #content_header #name ul{
+	list-style: none;
+}
+#content #content_header #name ul li{
+	margin: 10px;
+}
+
+#content #content_header #ma{
+	float: left;
+	height: 50px;
+	width: 50px;
+	background-image: url(../image/erweima.svg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	margin-left: 20%;
+	margin-top: 20px;
+}
+
+
+#footer
+{
+	width: 100%;
+	height: 45px;
+	display: flex;
+	bottom: 0px;
+	background-color: #D3D3D3;
+}
+
+
+#footer .menus
+{
+	flex: 0.25;
+	height: 45px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+#footer .menus img{
+	width: 25px;
+	height: 25px;
+	display: block;
+}
+#footer .menus span{
+	font-size: 12px;
+}
