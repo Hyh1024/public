@@ -22,4 +22,8 @@
 }
 #footer .menus span{
 	font-size: 12px;
+	
+}
+#footer .menus a{
+	text-decoration: none;
 }

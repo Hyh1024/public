@@ -1,0 +1,75 @@
+#four_lianxi{
+	/* position: absolute; */
+	width: 100%;
+	height: 110px;
+	background-image: url(../img/banner-bg.jpg);
+	background-repeat: no-repeat;
+	/* z-index: 1; */
+}
+#four_lianxi_test{
+	/* position:absolute; */
+	width: 100px;
+	height: 50px;
+	padding-top: 20px;
+	padding-left: 12%;
+	/* top: 10px; */
+	text-underline-style: none;
+}
+#five_test{
+	position: absolute;
+	/* top: 295px; */
+	/* float: left; */
+	width: 100%;
+	height: 500px;
+	background-color: #ADFF2F;
+}
+#five_test_fangxiang{
+	position: absolute;
+	top: 295px;
+	float: left;
+	width: 50%;
+	/* background-color: #337AB7; */
+	height: 100%;
+}
+#five_test_fangxiang1{
+	/* position: absolute; */
+	float: left;
+	width: 100%;
+	height: 50%;
+	/* background-color: #0000FF; */
+}
+#five_test_fangxiang1 ul{
+	list-style: none;
+}
+#five_test_fangxiang1 ul li{
+	margin: 15px;
+}
+#five_test_fangxiang2{
+	/* position: absolute; */
+	/* float: left; */
+	width: 100%;
+	height: 50%;
+	padding-top: 250px;
+	/* background-color: #ADFF2F; */
+}
+#five_test_fangxiang2 ul{
+	list-style: none;
+	
+}
+#five_test_fangxiang2 ul li{
+	margin: 20px;
+}
+#five_test_fangxiang21{
+	float: left;
+}
+#five_test_fangxiang22{
+	left: 20px;
+}
+
+#five_test_lianxibiao{
+	background-color: #00FFFF;
+	position: absolute;
+	float: left;
+	width: 50%;
+	height: 100%;
+}
